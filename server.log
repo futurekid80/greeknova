@@ -1,0 +1,8 @@
+INFO:     Started server process [55991]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 48] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+✅ GreekNova backend started
+📸 Full capture (OI + CMP) every 5 min during market hours
