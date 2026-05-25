@@ -36,7 +36,7 @@ def classify(oi_chg_pct: float, price_chg_pct: float):
     return None, None, None
 
 
-def get_signal_log(date: str = None):
+def get_signal_log(date: str = None, symbol: str = None):
     global _signal_cache, _signal_cache_time
     cache_ttl = 60 if is_market_hours() else 300
     if _signal_cache and (time_module.time() - _signal_cache_time) < cache_ttl:
