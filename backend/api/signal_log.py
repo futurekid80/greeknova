@@ -217,3 +217,4 @@ def get_signal_log(date: str = None):
     _signal_cache = result
     _signal_cache_time = time_module.time()
     return result
+# signal log rewrite
